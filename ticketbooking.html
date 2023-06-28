@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travel Booking Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Travel Booking Website</h1>
+  </header>
+  <main>
+    <section id="home">
+      <h2>Home</h2>
+      <p>Welcome to our travel booking website! We offer a wide range of travel destinations and packages to choose from. Whether you're looking for a relaxing beach vacation or an adventurous trekking trip, we have something for everyone.</p>
+      <p>To get started, simply enter your preferred destination, travel dates, and other relevant details in the search form below. We'll then display a list of matching destinations and packages.</p>
+      <form action="/search" method="post">
+        <input type="text" name="destination" placeholder="Destination">
+        <input type="date" name="start_date" placeholder="Start Date">
+        <input type="date" name="end_date" placeholder="End Date">
+        <input type="submit" value="Search">
+      </form>
+    </section>
+    <section id="destinations">
+      <h2>Destinations</h2>
+      <ul>
+        <li><a href="#">Mumbai, New Mumbai</a></li>
+        <li><a href="#">Pune, PCMC</a></li>
+        <li><a href="#">A.Nagar, Nashik</a></li>
+        <li><a href="#">Shirdi, Nashik</a></li>
+        <li><a href="#">Solapur, Kolhapur</a></li>
+      </ul>
+    </section>
+    <section id="packages">
+      <h2>Packages</h2>
+      <ul>
+        <li><a href="#">Pune Vacation Package</a></li>
+        <li><a href="#">Mumbai Vacation Package</a></li>
+        <li><a href="#">Goa Vacation Package</a></li>
+        
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2023 Travel Booking Website</p>
+  </footer>
+</body>
+</html>
+
